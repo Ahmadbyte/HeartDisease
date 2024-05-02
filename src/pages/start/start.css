@@ -1,0 +1,63 @@
+.app{ 
+    background-image: url("https://img.freepik.com/premium-photo/red-medical-heartbeat-line-heart-shape-illustration-color-background-world-heart-concept_176697-3197.jpg");
+    background-repeat: no-repeat;
+    /* background-color: rgb(50, 48, 48); */
+    /* background-size: contain; */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSRkMhZ7YU0LUUiQ2u8NAinV5I_RLa90dig&s');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: flex;
+    height: 430px;
+    width: 170px;
+    margin: 280px 20px 60px 60px;
+    padding: 190px 100px 0px 30px ;
+    mix-blend-mode:normal; 
+}
+
+.txt{
+    /* color: goldenrod; */
+    color:#61290d;
+    font-style: italic;
+    font-stretch: extra-condensed;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 50px 130px 0;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.txt2{
+    color: #2e5d3b;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 1px;
+    border-radius: 5px;
+    
+}
+
+.btn{
+    background-color: #2e3b4d;
+    cursor: pointer;
+    color: #DDE6ED;
+    font-size: 17px;
+    padding: 10px 40px ;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 0.5px 0.25px #282c34;
+}
+
+.btn :hover{
+    background-color: #16c754;
+}
