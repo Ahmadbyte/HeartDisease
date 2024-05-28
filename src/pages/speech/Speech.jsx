@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { jsPDF } from 'jspdf';
 import './speech.css'; // Import the CSS file
 
@@ -54,6 +55,11 @@ const SpeechRecognitionComponent = () => {
         {isListening ? 'Stop Listening' : 'Start Listening'}
       </button>
       <div className="speech-recognition-transcript">{transcript}</div>
+      <Link to="/start" style={{ textDecoration: "none" }}>
+        <button className='btn' >
+        <>Redirect to Test</>
+        </button>
+        </Link>
     </div>
   );
 };
